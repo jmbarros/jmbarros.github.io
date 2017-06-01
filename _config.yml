@@ -26,6 +26,7 @@ github_username:  jmbarros
 
 # Build settings
 markdown: kramdown
+#theme: jekyll-theme-architect
 theme: jekyll-theme-architect
 gems:
   - jekyll-feed
