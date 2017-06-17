@@ -1,0 +1,117 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#permalink:           pretty
+permalink: /blog/:year/:month/:day/:title/
+relative_permalinks: false
+encoding: utf-8
+
+# Setup
+title:               T4IT
+#tagline:             'foo's website
+description:         T4IT Blog
+#url: https://lanyon-plus.sbamin.com
+#baseurl: ""
+#urlimg: https://lanyon-plus.sbamin.com/images/
+## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
+#url: https://dyndna.github.io/lanyon-plus
+#baseurl: "/lanyon-plus"
+#urlimg: https://dyndna.github.io/lanyon-plus/images/
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+paginate: 5
+paginate_path: "/blog/page:num"
+excerpt_separator: <!--more-->
+default_bg: sitebg.jpg
+#default_logo: sitelogo.png
+safe: false
+#timezone:    America/Chicago
+future:      true
+
+
+## code highlight options
+syntax_highlighter: rouge
+input: GFM
+
+gems:
+  - github-pages
+  - font-awesome-sass
+  - jekyll-redirect-from
+  - jekyll-mentions
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+
+# About/contact
+author:
+  name:              J. Marcelo Barros
+  url:               https://twitter.com/jbarros
+  #avatar:         foo.png
+  #email:           
+
+# Owner/author information
+owner:
+  name:           J. Marcelo Barros
+  #avatar:         foo.png
+  #email:          
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: jbarros
+  #facebook:       
+  github: jmbarros
+  #stackexchange:  
+  linkedin: https://www.linkedin.com/in/joaomarcelobarros
+  #instagram:      
+  flickr: tech4itbr 
+  #tumblr:  
+  google_plus: https://plus.google.com/+joaomarcelobarros
+  # orcid and google scholar IDs are different than standard username.
+  #orcid: xyz123abc
+  #gscholar: xyz123abc
+
+## sidebar links:
+# For external links add external: true
+links:
+  - title: <i class="iconside iconm-home"></i> Home
+    url: /
+  - title: <i class="iconside iconm-user"></i> About
+    url: /about/
+  - title: <i class="iconside iconm-quill"></i> Blog
+    url: /blog/
+  - title: <i class="fa fa-tags"></i> Tags
+    url: /tags/
+  #- title: <i class="fa fa-archive"></i> Archive
+  #  url: /archive/
+  #- title: <i class="iconside iconm-wordpress"></i> Old Blog
+  #  url: https://foo.wordpress.com
+  #  external: true
+  #- title: <i class="iconside iconm-envelop"></i> Contact
+  #  url: /contact/
+  #- title: <i class="iconside iconm-twitter"></i> Twitter
+  #  url: https://twitter.com/abcd
+  #  external: true
+  #- title: <i class="iconside iconm-feed2"></i> Feed
+  #  url: /feed.xml
+
+# Google Custom Search:
+google_search: 016386823504877847832:4tswql-d2h0
+
+# Twitter stream widget:
+# Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
+twitter_widget_id: jbarros
+
+# Add disqus username for Disqus comment board:
+disqus_shortname: jmbarros3
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-71957408-2
+
+#### For dummy website only - remove if you wish ####
+#version: 1.1.1
+## END ##
