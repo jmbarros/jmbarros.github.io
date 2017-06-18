@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 show_meta: true
 # imagefeature path is relative to images/ directory.
-imagefeature: foo.png
+#imagefeature: foo.png
 published: true
-description: "About example.com...."
+description: "About me ..."
 category: views
 comments: false
 mathjax: false
@@ -17,20 +17,10 @@ sitemap:
     lastmod: 2016-02-13
 # tags will be used as html meta keywords.    
 tags:
-  - "foo boo"
-  - "city tx"
+  - about
 ---
 
-<div class="post-author text-center">                       
-            <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
-<span class="social-icons" style="padding-top: 10px; padding-bottom: 1px;">
-<a href="{{ site.url }}/cv" title="Curriculum Vitae" class="social-icons"><i class="iconm iconm-profile" style="vertical-align: top;"></i></a>
-<a href="{{ site.url }}/about/publications/" class="social-icons" title="Publications"><i class="iconm iconm-file-pdf"></i></a>
-<a href="{{ site.owner.linkedin }}" class="social-icons" title="LinkedIn profile"><i class="iconm iconm-linkedin2"></i></a>
-</span>
-</div>
-
-Joao Marcelo Barros
+## Joao Marcelo Barros
  
 More than 12 years working in IT with linux, windows and virtualized environments.
 Today more focused in the challenges of how designing the hybrid cloud computing for enterprise companies.

@@ -41,8 +41,8 @@ gems:
   - jekyll-redirect-from
   - jekyll-mentions
 
-jekyll-mentions:
-  base_url: https://twitter.com
+#jekyll-mentions:
+#  base_url: https://twitter.com
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
@@ -70,7 +70,7 @@ owner:
   #instagram:      
   flickr: tech4itbr 
   #tumblr:  
-  google_plus: https://plus.google.com/+joaomarcelobarros
+  #google_plus: https://plus.google.com/+joaomarcelobarros
   # orcid and google scholar IDs are different than standard username.
   #orcid: xyz123abc
   #gscholar: xyz123abc
