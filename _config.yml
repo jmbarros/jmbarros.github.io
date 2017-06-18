@@ -78,13 +78,13 @@ owner:
 ## sidebar links:
 # For external links add external: true
 links:
-  - title: <i class="iconside iconm-home"></i> Home
+  - title: <i class="iconside iconm-home"></i> home
     url: /
-  - title: <i class="iconside iconm-user"></i> About
+  - title: <i class="iconside iconm-user"></i> about
     url: /about/
-  - title: <i class="iconside iconm-quill"></i> Blog
+  - title: <i class="iconside iconm-quill"></i> blog
     url: /blog/
-  - title: <i class="fa fa-tags"></i> Tags
+  - title: <i class="fa fa-tags"></i> tags
     url: /tags/
   #- title: <i class="fa fa-archive"></i> Archive
   #  url: /archive/
